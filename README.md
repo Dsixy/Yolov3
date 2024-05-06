@@ -1,2 +1,6 @@
 # Yolov3
 目前根据网上教程手搓的yolov3
+
+yolov3的主结构darknet很简单，最难的的是从三个特征图变到与label对应的格式，也就是encoder和decoder。
+但是encoder和decoder很重要，一个涉及loss的计算，一个涉及eval过程的输出。
+目前尝试了一下，但是下载数据发现数据是字典格式，嵌套了好多层，我歇逼了
